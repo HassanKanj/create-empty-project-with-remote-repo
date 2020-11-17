@@ -1,0 +1,22 @@
+{
+  "name": "create-project-with-remote-repo",
+  "version": "1.0.0",
+  "description": "A CLI tool that will create a folder locally for your new project in addition to a private GitHub repository and link them together.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "author": "Hassan kanj",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.0.9",
+    "chalk": "^4.1.0",
+    "command-line-args": "^5.1.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
